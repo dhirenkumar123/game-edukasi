@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+
+body {
+  font-family: 'Fredoka', sans-serif;
+  text-align: center;
+  background: url('images/bg.png') no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  padding: 50px;
+}
+
+h1 {
+  color: #ff4081;
+  font-size: 40px;
+  text-shadow: 2px 2px #fff;
+}
+
+.status {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 22px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+#question, #result {
+  font-size: 22px;
+  margin: 15px 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+#letters {
+  margin: 20px 0;
+}
+
+#letters span {
+  display: inline-block;
+  padding: 15px;
+  margin: 5px;
+  font-size: 26px;
+  background-color: #ffd54f;
+  color: #000;
+  border-radius: 12px;
+  font-weight: bold;
+  box-shadow: 2px 2px #fbc02d;
+}
+
+input {
+  padding: 12px;
+  font-size: 20px;
+  width: 300px;
+  border-radius: 10px;
+  border: 2px solid #ff80ab;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 20px;
+  background-color: #ff80ab;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 2px 2px #f06292;
+}
+
+button:hover {
+  background-color: #ff4081;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Susun Kata</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Game Susun Kata</h1>
+
+  <div class="status">
+    <p>Level: <span id="level">1</span></p>
+    <p>Skor: <span id="score">0</span></p>
+  </div>
+
+  <div id="question">Susun huruf menjadi kata yang benar:</div>
+  <div id="letters"></div>
+
+  <input type="text" id="answer" placeholder="Tulis jawabanmu di sini">
+  <button onclick="checkAnswer()">Cek Jawaban</button>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
