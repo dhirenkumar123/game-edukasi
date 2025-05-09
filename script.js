@@ -1,6 +1,7 @@
 const kataList = [
-    "buku", "pensil", "sekolah", "komputer", "internet",
-    "belajar", "pulpen", "penghapus", "penggaris", "kursi"
+    "buku", "pensil", "sekolah", "topi", "sepatu",
+    "belajar", "pulpen", "meja", "spidol", "tas", "seragam", "bekal", "jam", "papan", "kertas",
+    "handphone", "lampu", "kipas", "jendela", "pintu", "kursi", "komputer",
   ];
   
   let currentWord = "";
